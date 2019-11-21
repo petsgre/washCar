@@ -1,0 +1,18 @@
+/**app.wxss**/
+.detail-box {
+  width: 100%;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.detail-pre {
+  height: 90rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 90rpx;
+  background-color: #000000;
+  border-radius: 10px;
+  color: #ffffff;
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "i-tabs": "../../iview/tabs/index",
+    "i-tab": "../../iview/tab/index",
+    "i-modal": "../../iview/modal/index"
+  },
+  "navigationBarTitleText": "预约列表",
+  "navigationBarTextStyle": "white"
+}

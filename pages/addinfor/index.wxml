@@ -1,0 +1,54 @@
+<view class='mian'>
+  <view class='xzxx'>
+    <view class='ssts'>
+      <label>联系人：</label>
+      <input placeholder-style="color:#bab9b9" placeholder="填写联系人" value="{{contacts}}" data-key='contacts' bindinput="bindKeyInput" />
+    </view>
+    <view class='ssts'>
+      <label>联系人电话：</label>
+      <input placeholder-style="color:#bab9b9" placeholder="填写联系人电话" value="{{contactPhone}}" data-key='contactPhone' bindinput="bindKeyInput" />
+    </view>
+    <view class='ssts'>
+      <label>车牌：</label>
+      <input placeholder-style="color:#bab9b9" placeholder="填写车牌" value="{{carNum}}" data-key='carNum' bindinput="bindKeyInput" />
+    </view>
+    <view class='ssts'>
+      <label>车型：</label>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">{{array[index]}}</view>
+        <image src='../images/jiant.png' mode='aspectFit' class='imagds'></image>
+      </picker>
+    </view>
+    <view class='ssts'>
+      <label>品牌：</label>
+      <picker bindchange="brandPickerChange" value="{{brandIndex}}" range-key="brand" range="{{brandArray}}">
+        <view class="picker">{{brandArray[brandIndex].brand}}</view>
+        <image src='../images/jiant.png' mode='aspectFit' class='imagds'></image>
+      </picker>
+    </view>
+    <view class='ssts'>
+      <label>车系：</label>
+      <picker bindchange="modelPickerChange" value="{{modelIndex}}" range-key="maker" range="{{modelArray}}">
+        <view class="picker">{{modelArray[modelIndex].maker}}</view>
+        <image src='../images/jiant.png' mode='aspectFit' class='imagds'></image>
+      </picker>
+    </view>
+    <view class='ssts'>
+      <label>小区地址：</label>
+      <picker bindchange="xiaoqPickerChange" value="{{xqq}}" range="{{xiaoq}}">
+        <view class="picker">{{xiaoq[xqq]}}</view>
+      </picker>
+      <image src='../images/jiant.png' mode='aspectFit' class='imagds'></image>
+    </view>
+    <view class='ssts'>
+      <label>停车位：</label>
+      <picker bindchange="cewPickerChange" value="{{cewindex}}" range="{{cew}}">
+        <view class="cew">{{cew[cewindex]}}</view>
+      </picker>
+      <image src='../images/jiant.png' mode='aspectFit' class='imagds'></image>
+      <input placeholder-style="color:#bab9b9" placeholder="填写停车位" value="{{num || ''}}" data-key='num' bindinput="bindKeyInput" />
+    </view>
+    <view class='qtes'>请输入字母和数字组合的车位号，例如A001</view>
+    <view class='xzheng' bindtap='save'>保存</view>
+  </view>
+</view>

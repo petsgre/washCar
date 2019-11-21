@@ -1,0 +1,65 @@
+/* pages/detail/index.wxss */
+
+.detail-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.detail-img {
+  width: 100%;
+  padding: 0 20px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.detail-item {
+  padding: 10px 20px 0 20px;
+  font-size: 26rpx;
+}
+
+.detail-brand {
+  text-align: left;
+  font-size: 26rpx;
+  font-weight: bold;
+  padding: 10rpx 20px 0 20px;
+}
+
+.radio-group {
+  display: inline-block;
+}
+
+.radio {
+  margin-right: 4px;
+}
+
+.dousu {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  font-size: 30rpx;
+  border-radius: 10px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #000;
+}
+
+radio .wx-radio-input {
+  display: none;
+}
+
+.radio-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+}
+
+.detail-box {
+  bottom: 80rpx;
+}
+
+.detail-pre {
+  border-radius: 50rpx;
+}

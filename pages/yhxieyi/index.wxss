@@ -1,0 +1,35 @@
+page {
+  background: #fff;
+  width: 100%;
+}
+
+.mian {
+  padding: 30rpx;
+  overflow: hidden;
+}
+
+.xiey {
+  font-size: 32rpx;
+  font-weight: 600;
+  height: 45rpx;
+  line-height: 45rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+}
+
+.biat {
+  font-size: 28rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 20rpx;
+}
+
+.neir {
+  font-size: 28rpx;
+  text-indent: 60rpx;
+  line-height: 40rpx;
+}
+
+.red {
+  color: red;
+}

@@ -1,0 +1,11 @@
+/* pages/orderDetail/index.wxss */
+.order-table{
+  padding: 10px;
+}
+.order-tr{
+  padding: 6px 0;
+  font-size: 30rpx;
+}
+.order-tr text:nth-child(2){
+  float: right;
+}

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "i-tabs": "../../iview/tabs/index",
+    "i-tab": "../../iview/tab/index",
+    "i-modal": "../../iview/modal/index",
+    "i-card": "../../iview/card/index",
+    "auth-dialog": "/components/auth-dialog/index"
+  },
+  "navigationBarTitleText": "站府智洗",
+  "navigationBarTextStyle": "white"
+}

@@ -1,0 +1,27 @@
+.main {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.rxcode {
+  width: 420rpx;
+  height: 420rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.buy {
+  width: 710rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  left: 20rpx;
+  bottom: 20rpx;
+  font-size: 35rpx;
+  background: #000;
+  color: #fff;
+  border-radius: 10rpx;
+  border: 1px solid #000;
+  position: fixed;
+}

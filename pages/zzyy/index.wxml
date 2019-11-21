@@ -1,0 +1,16 @@
+<view class='mian'>
+  <view class='jess' wx:if="{{!list[0]}}">暂无预约订单</view>
+
+  <i-cell-group>
+    <view class='cell-item'>
+      <block wx:for="{{list}}" wx:key="{{index}}">
+        <i-cell title="{{item.serviceContent}}" label="{{'洗车时间:'+item.time}}" value="{{item.feePrice+'元'}}"></i-cell>
+        <view class='btn' data-index='{{index}}' bindtap='cancelDialog'>取消预约</view>
+      </block>
+    </view>
+  </i-cell-group>
+
+</view>
+<i-modal visible="{{ visible }}" bind:ok="cancel" bind:cancel="handleClose">
+    <view>确定取消预约吗？</view>
+</i-modal>

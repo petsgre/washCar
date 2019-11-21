@@ -1,0 +1,89 @@
+  .my-mask{
+        background: rgba(0,0,0,.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index:999;
+        display: block;
+        user-select:none;
+    }
+    .my-dialog{
+        position: fixed;
+        z-index: 1000;
+        width: 80%;
+        max-width: 560rpx;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background-color: #FFF;
+        text-align: center;
+        border-radius: 20rpx;
+        overflow: hidden;
+        padding-top:30rpx ;
+    }
+    .my-dialog-img{
+        width: 140rpx;
+        height: 110rpx;
+    }
+    .my-dialog-content{
+        padding: 10rpx 100rpx 25rpx;
+        min-height: 40rpx;
+        font-size: 34rpx;
+        line-height: 1.5;
+        word-wrap: break-word;
+        word-break: break-all;
+        color: #333;
+    }
+    .my-dialog-content .line{
+        display:block;
+    }
+    .my-dialog-footer{
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        position: relative;
+        line-height: 45px;
+        font-size: 17px;
+    }
+    .my-dialog-footer::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -1px;
+        right: 0;
+        height: 1px;
+        width:100%;
+        background-color: #D5D5D6;
+        transform:scaleY(.5);
+    }
+    .my-dialog-btn{
+        display: block;
+        -webkit-flex: 1;
+        flex: 1;
+        width:50%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        position: relative;
+        font-size: 36rpx;
+        line-height: 90rpx;
+        color: #17D8A3;
+        background:#fff;
+        border-radius:0;
+        padding:0;
+        margin:0;
+    }
+    .my-dialog-btn::after{
+       border:none;
+    }
+    .my-dialog-footer button.my-dialog-btn:after{
+        content: " ";
+        position: absolute;
+        left: 1px;
+        top: 0;
+        width: 1px;
+        top: 0;
+        border-left: 1px solid #D5D5D6;
+        color: #D5D5D6;
+    }

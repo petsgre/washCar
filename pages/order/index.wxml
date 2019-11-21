@@ -1,0 +1,20 @@
+<view class='jess' wx:if="{{!list[0]}}">暂无预约订单</view>
+<view class='order-group'>
+  <view class='order-item' wx:for="{{list}}" wx:key="{{index}}" data-index='{{index}}' bindtap='toMen'>
+    <view class='order-head'>{{item.merName+'-'+item.companyName}}</view>
+    <view class='order-body'>
+      <text class='order-content'>{{item.serviceContent}}\n</text>
+      <text class='left'>{{item.time}}</text>
+      <text class='right'> <text style='font-size:30rpx;'>¥</text>{{item.feePrice}}</text>
+    </view>
+    <view class='order-foot'>
+      <view catch:tap='again' data-index='{{index}}'>再次预定</view>
+      <view wx:if='{{status != 1}}' catch:tap='toComment' data-index='{{index}}'>评价</view>
+      <view catch:tap='toDetail' data-index='{{index}}'>查看详情</view>
+      <view catch:tap='cancelDialog' data-index='{{index}}' wx:if='{{status == 1}}'>取消预约</view>
+    </view>
+  </view>
+</view>
+<i-modal visible="{{ visible }}" bind:ok="cancel" bind:cancel="handleClose">
+  <view>确定取消预约吗？</view>
+</i-modal>

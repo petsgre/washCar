@@ -1,0 +1,22 @@
+<view class='mian'>
+  <view class='shopss'>
+    <image src='../images/vip.png' mode='aspectFit'></image>
+    <view class='contss'>
+      <view class='bnts_us'>
+        <view class='yuefei'>vip年费会员</view>
+        <view class='polsi'>{{year.discoutStr}}</view>
+      </view>
+      <view class='jiage' data-detail='{{year}}' bindtap='pay'>{{year.price}}元</view>
+    </view>
+  </view>
+  <view class='shopss'>
+    <image src='../images/vip.png' mode='aspectFit'></image>
+    <view class='contss'>
+      <view class='bnts_us'>
+        <view class='yuefei'>月费会员</view>
+        <view class='polsi'>{{mouth.discoutStr}}</view>
+      </view>
+      <view class='jiage' data-detail='{{mouth}}' bindtap='pay'>{{mouth.price}}元</view>
+    </view>
+  </view>
+</view>

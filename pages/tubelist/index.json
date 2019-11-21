@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "i-tabs": "../../iview/tabs/index",
+    "i-tab": "../../iview/tab/index",
+    "i-toast": "../../iview/toast/index",
+    "i-modal": "../../iview/modal/index"
+  },
+  "navigationBarTitleText": "管理列表",
+  "backgroundTextStyle": "dark",
+  "navigationBarTextStyle": "white" 
+}

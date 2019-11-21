@@ -1,0 +1,24 @@
+<view class='mian'>
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{item}}">
+      <swiper-item>
+        <image src="{{item.activityPic}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='sort'>
+    <view class='sort-item' wx:for="{{sorts}}" wx:for-index="index" wx:for-item="item" wx:key="{{index}}">
+      <view class='sort-item-img' bindtap='toPage' data-page="{{item.pageUrl}}">
+        <image mode="scaleToFill" src='{{item.url}}'></image>
+      </view>
+    </view>
+  </view>
+  <view class='sort-title'>洗车门店</view>
+  <view class='zf-grid'>
+    <view class='zf-grid-item' style="float:{{ index % 2 == 0?'left':'right'}}" wx:for="{{stores}}" wx:key="{{index}}" data-index='{{index}}' bindtap='toDetail'>
+      <image mode="scaleToFill" src='{{item.brandLogo}}'></image>
+      <view>{{item.companyName}}（{{item.merName}}）{{item.asd}} </view>
+    </view>
+    <view style='clear:both'></view>
+  </view>
+</view>

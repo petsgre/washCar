@@ -1,0 +1,7 @@
+{
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "客服",
+    "usingComponents": {
+        "auth-dialog": "/components/auth-dialog/index"
+    }
+}

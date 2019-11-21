@@ -1,0 +1,15 @@
+page{
+  background: #f8f8f8;
+  width: 100%;
+}
+.mian{
+  width: 100%;
+  padding-bottom: 165rpx;
+}
+.jess{
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}

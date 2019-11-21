@@ -1,0 +1,113 @@
+/**index.wxss**/
+
+.mian {
+  width: 100%;
+  overflow: hidden;
+}
+
+swiper {
+  height: 8rem;
+}
+
+swiper image {
+  width: 100%;
+  height: 8rem;
+}
+
+.sort {
+  display: flex;
+  padding: 0px 10px;
+}
+
+.sort-item {
+  flex: 1;
+}
+
+.sort-item image {
+  width: 100%;
+  height: 100%;
+  transform: scale(0.6);
+}
+
+.sort-item-img {
+  width: 100%;
+  height: 24vw;
+  box-sizing: border-box;
+}
+
+.sort-item-title {
+  text-align: center;
+  font-size: 14px;
+  margin-top: -4vw;
+}
+
+.sort-interval {
+  height: 10px;
+  background-color: #f2f2f2;
+}
+
+.sort-title {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #000;
+  color: #ccc;
+}
+
+.panl-group {
+  padding: 20px 20px 0 20px;
+}
+
+.panl {
+  margin-bottom: 18px;
+  display: flex;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.panl-img {
+  width: 60px;
+}
+
+.panl-text {
+  width: calc(100% - 60px);
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.panl-text view {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 6px;
+}
+
+.panl-img image {
+  width: 60px;
+  height: 50px;
+}
+
+.zf-grid {
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.zf-grid-item {
+  width: calc(50% - 15px);
+  box-sizing: border-box;
+  margin-bottom: 14rpx;
+}
+.zf-grid-item image{
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+.zf-grid-item view{
+  font-size: 30rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #4d4d4d;
+}

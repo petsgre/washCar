@@ -1,0 +1,153 @@
+page{
+  background: #f8f8f8;
+  width: 100%;
+  height: 100%;
+}
+.mian{
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.about_bj{
+  background: #ffffff;
+  width: 710rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.publ{
+  border-bottom: 1rpx solid #f2f2f2;
+  padding: 20rpx;
+  overflow: hidden;
+}
+.publs{
+  padding: 20rpx;
+  overflow: hidden;
+}
+.toux_img{
+  width: 100rpx;
+  height: 100rpx;
+  background: #000000;
+  border-radius: 50%;
+  float: left;
+}
+.imgs{
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+  border-radius: 50%;
+}
+.an_name{
+  float: left;
+  width: 320rpx;
+  overflow: hidden;
+  margin-left: 20rpx;
+}
+.sxxname{
+  width: 100%;
+  font-size: 40rpx;
+  font-weight: 600;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 5rpx;
+}
+.sxxtel{
+  width: 100%;
+  font-size: 30rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.picker{
+  height: 50rpx;
+  line-height: 50rpx;
+  float: left;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+.imagds{
+    width: 25rpx;
+    height: 25rpx;
+    float: left;
+    margin-top:14rpx;
+    margin-left: 10rpx;
+    margin-right: 20rpx;
+}
+.dizhis{
+  font-size: 25rpx;
+  width: 130rpx;
+  border:1px solid #f2f2f2;
+  float: right;
+  text-align: center;
+  border-radius: 20rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+}
+.wenb{
+  font-size: 30rpx;
+  width: 180rpx;
+  float: left;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.skuu{
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 200rpx;
+  float: left;
+  width: 400rpx;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+.area{
+  height: 200rpx;
+  width: 200rpx;
+  float: left;
+  width: 400rpx;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+.tis{
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  display: block;
+  overflow: hidden;
+  color: red;
+}
+.footer{
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+.ppiu{
+  width: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  margin-top: 20rpx;
+}
+.jiws{
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.jiws{
+  width: 100%;
+  overflow: hidden;
+}
+.wenyys{
+  font-size: 30rpx;
+  float: left;
+  width: 250rpx;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.jiag{
+  color: #000000;
+}
+.yansbj{
+  background: #000000;
+  color: #ffffff;
+}

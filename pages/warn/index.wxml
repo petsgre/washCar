@@ -1,0 +1,14 @@
+<view class='main'>
+  <view class=''>
+    请输入您的手机号：
+    <input placeholder="请填写手机号" name="input" value="{{phone}}" bindinput="handleInput" />
+  </view>
+  请添加图片：
+  <view class='comment-btn' bindtap='choose'>+</view>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <image class='comment-img' src="{{item}}" mode='aspectFill' bindlongtap='delDialog' data-index='{{index}}'></image>
+  </block>
+</view>
+<view class='detail-box' bindtap='warnStore'>
+  <view class='detail-pre'>提交</view>
+</view>

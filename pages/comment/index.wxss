@@ -1,0 +1,62 @@
+/* pages/comment/index.wxss */
+
+.main {
+  margin-bottom: 100px;
+  padding: 10px 20px;
+}
+
+.comment {
+  height: 260px;
+}
+
+.comment textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.comment-btn {
+  width: 100%;
+  height: 140px;
+  border: 1px dashed #000;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.btn-plus {
+  font-size: 26px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.comment-btn-group {
+  position: fixed;
+  bottom: 0;
+  height: 80rpx;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 30rpx;
+  background-color: #4586f7;
+}
+
+.comment-img {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #f2f2f2;
+}
+
+.detail-box {
+  bottom: 80rpx;
+}
+
+.detail-pre {
+  border-radius: 50rpx;
+}

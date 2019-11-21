@@ -1,0 +1,36 @@
+<view class='mian'>
+  <view class='vip-head'>
+    <image mode="widthFix" src='../images/vip_bg.png'></image>
+  </view>
+  <view class='vip-introduce'>
+    <image class='vip-introduce-img' mode="widthFix" src='../images/vip_introduce.png'></image>
+    <view class='vip-introduce-box'>
+      <view class='vip-introduce-box-item'>1. 你是个vip</view>
+      <view class='vip-introduce-box-item'>2. 你花了钱</view>
+      <view class='vip-introduce-box-item'>3. 还花了不少</view>
+    </view>
+    <view class='vip-btn1 vip-btn' wx:if="{{showBtn}}" bindtap="handleBuy">立即购买</view>
+    <view class='vip-btn2 vip-btn' wx:if="{{!showBtn}}">会员有效期：{{info.time}}</view>
+  </view>
+  <!-- <view class='shopss'>
+    <image src='{{info.picUrl}}' mode='aspectFit'></image>
+    <view class='contss'>
+      <view class='bnts_us'>
+        <view class='yuefei'>vip会员</view>
+        <view class='polsi'>{{info.discoutStr}}</view>
+      </view>
+      <view class='jiage'>{{info.price}}元</view>
+    </view>
+  </view>
+  <view class='vip-box'>
+    <view style='font-weight: bold;'>会员介绍</view>
+    <view style='font-size: 26rpx;'>1. 你是个vip</view>
+    <view style='font-size: 26rpx;'>2. 你花了钱</view>
+    <view style='font-size: 26rpx;'>3. 还花了不少</view>
+  </view>
+  <view class='vip-box' wx:if="{{!showBtn}}">
+    <view style='font-weight: bold;'>套餐有效期</view>
+    <view style='font-size: 26rpx;'>{{info.time}}</view>
+  </view>
+  <button class='buy-btn' wx:if="{{showBtn}}" size="default" bindtap="handleBuy"> 立即购买 </button> -->
+</view>

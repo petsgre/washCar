@@ -1,0 +1,221 @@
+page{
+  background: #f8f8f8;
+  width: 100%;
+}
+.mian{
+  width: 100%;
+  padding-bottom: 165rpx;
+}
+.person{
+  width: 100%;
+  overflow: hidden;
+  height: 580rpx;
+  position: relative;
+}
+.person_biao{
+  width: 100%;
+  overflow: hidden;
+  padding-top: 25rpx; 
+  z-index: 10;
+  position: relative;
+}
+.toux{
+  width: 110rpx;
+  height: 110rpx;
+  float: left;
+  border-radius: 50%;
+  margin-left: 70rpx;
+  border:1px solid #f2f2f2;
+
+}
+.yhuert{
+  width: 300rpx;
+  float: left;
+  overflow: hidden;
+  margin-left: 25rpx;
+}
+.cv_mz{
+  height: 50rpx;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-top: 6rpx;
+  color: #ffffff;
+}
+.weiz{
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+  margin-right: 5rpx;
+  margin-top: 5rpx;
+}
+.cv_diz{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  width: 400rpx;
+  margin-top: 10rpx;
+  color: #ffffff;
+}
+.yue{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 45rpx;
+  z-index: 10;
+  position: absolute;
+  bottom: 80rpx;
+}
+.yueli{
+  float: left;
+  width: 250rpx;
+  overflow: hidden;
+  color: #ffffff;
+}
+.yuenum{
+  font-size: 38rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.yuetext{
+  font-size: 24rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.conts{
+  width: 700rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: -60rpx;
+  z-index: 10;
+  position: relative;
+}
+.pub{
+  background: #1f1c1c;
+  padding: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.tts{
+   border-radius: 20rpx;
+   padding: 20rpx;
+   background: #1f1c1c;
+   margin-bottom: 20rpx;
+}
+.tts text{
+  margin-left: 20rpx;
+  font-size:28rpx;
+  color: #fff;
+}
+.pingj{
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+}
+
+.xieyi{
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+}
+.youh{
+  background: #1f1c1c;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.chel{
+  background: #1f1c1c;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.pub text{
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  color: #fff;
+}
+
+.youhlog{
+  float: left;
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 7rpx;
+}
+.jiant{
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 10rpx;
+  }
+.chellog{
+  float: left;
+  width: 54rpx;
+  height: 54rpx;
+  margin-top: 6rpx;
+}
+.pingjlog{
+  float: left;
+  width: 55rpx;
+  height:55rpx;
+  margin-top: 7rpx;
+}  
+.xieyilog{
+  float: left;
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 6rpx;
+  margin-left: 10rpx;
+}
+
+
+
+.footer{
+  border-top: 1px solid #c5c3c3;
+  width: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  padding-top: 15rpx;
+  padding-bottom: 30rpx;
+}
+.syli{
+  width: 25%;
+  float: left;
+  overflow: hidden;
+}
+.eusdd{
+  widows: 55rpx;
+  height: 55rpx;
+  display: block;
+}
+.eusdd image{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.bottname{
+  font-size: 20rpx;
+  width: 100%;
+  text-align: center;
+}
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+.zf-mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+.no-login{
+  padding: 1rem;
+}

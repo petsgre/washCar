@@ -1,0 +1,92 @@
+.my-mask {
+    background: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+@keyframes pop-show {
+    from {
+        transform: translateY(1200rpx);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.pop-qrcode-view {
+    position: fixed;
+    transform: translateY(1200rpx);
+    z-index: 1000;
+    top: 300rpx;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 15rpx;
+    width: 560rpx;
+    padding-top: 70rpx;
+    text-align: center;
+    overflow: hidden;
+}
+
+.pop-qrcode-view.show {
+    animation: pop-show .5s ease-in-out;
+    animation-fill-mode: both;
+}
+
+.pop-qrcode-view .qrcode {
+    width: 300rpx;
+    height: 300rpx;
+}
+
+.pop-qrcode-view .tips {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 30rpx;
+    padding: 20rpx 0;
+    position: relative;
+}
+
+.pop-qrcode-view .tips .sp {
+    color: #17d5a3;
+}
+
+.pop-qrcode-view::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    transform: translateY(.5);
+    background-color: #eee;
+    width: 100%;
+}
+
+.pop-qrcode-view button {
+    background: transparent;
+    color: #17d5a3;
+    font-size: 30rpx;
+    line-height: 3;
+    border-radius: 0;
+    position: relative;
+}
+
+.pop-qrcode-view button:before {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: translateY(.5);
+    background-color: #eaeaea;
+    content: '';
+}
+
+.pop-qrcode-view button:after {
+    border: none;
+}

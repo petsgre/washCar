@@ -1,0 +1,15 @@
+<view class='mian'>
+    <view class='cv_dds'>
+        <image src='../images/logo.png' mode='aspectFit' class='logo'></image>
+        <view class='cv_xwes'>
+           <view class='cv_mz'>站府智洗</view>
+           <!-- <view class='cv_diz'><image src='../images/weiz.png' mode='aspectFit' class='weiz'></image><text>广州市海猪区广州市海猪区广州市海猪区广州市海猪区广州市海猪区</text></view> -->
+           <view class='cv_tel'><text>18202128137</text><image src='../images/tel.png' mode='aspectFit' class='weiz_tel'></image></view>
+           <view class='cv_lxkf' bindtap='call'>联系客服</view>
+        </view>
+    </view>
+    <view class='cv_ewm'>
+      <image src='../images/ewm.png' mode='aspectFit'></image>
+      <view class='cv_ewmname'>扫码关注公众号：sx_tech</view>
+    </view>
+</view>

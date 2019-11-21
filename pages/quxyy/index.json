@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "i-cell-group": "../../iview/cell-group/index",
+    "i-cell": "../../iview/cell/index",
+    "i-modal": "../../iview/modal/index"
+  },
+  "navigationBarTitleText": "取消预约",
+  "backgroundTextStyle": "dark",
+  "navigationBarTextStyle": "white"
+}

@@ -1,0 +1,14 @@
+<view class='my-dialog-container' wx:if="{{show}}">
+  <view class='my-mask'></view>
+  <view class='my-dialog'>
+    <image class='my-dialog-img' src="../../img/no_client.png"></image>
+    <view class='my-dialog-content'>
+      <text class='line'>你需要授权微信权限</text>
+      <text class='line'>才能查看页面哦~</text>
+    </view>
+    <view class='my-dialog-footer'>
+      <navigator class='my-dialog-btn' open-type="exit" target="miniProgram">取消</navigator>
+      <button class='my-dialog-btn' open-type="getUserInfo" bindgetuserinfo="_getUserInfo">授权</button>
+    </view>
+  </view>
+</view>

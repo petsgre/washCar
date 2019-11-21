@@ -1,0 +1,17 @@
+<view class='main'>
+  <view class='comment'>
+    <textarea placeholder="请填写评价" name="textarea" value="{{commentText}}" bindinput="handleInput" />
+  </view>
+  请添加图片：
+  <view class='comment-btn' bindtap='choose'>
+    <view class='btn-plus'>
+      +
+    </view>
+  </view>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <image class='comment-img' src="{{item}}" mode='aspectFill' bindlongtap='delDialog' data-index='{{index}}'></image>
+  </block>
+</view>
+<view class='detail-box' bindtap='comment'>
+  <view class='detail-pre'>提交</view>
+</view>

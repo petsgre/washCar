@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "i-cell-group": "../../iview/cell-group/index",
+    "i-cell": "../../iview/cell/index"
+  },
+  "navigationBarTitleText": "已完成",
+  "backgroundTextStyle": "dark",
+  "navigationBarTextStyle": "white"
+}

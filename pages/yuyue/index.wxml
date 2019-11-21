@@ -1,0 +1,20 @@
+<view class='mian'>
+  <view class='bjss'></view>
+  <view class='uues'>
+    <i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
+      <i-tab wx:for="{{times}}" wx:key="{{index}}" class="{{currentTab== 0 ?'active':''}}" data-current="{{index}}" key="{{'tab'+index}}" title="{{item.date}}" title1='{{item.day}}' bindtap="clickTab"></i-tab>
+    </i-tabs>
+    <view class='ieis'>预约时间</view>
+    <view class="list" wx:for="{{list}}" wx:key="{{index}}">
+      <view class='eks'>
+        <image src='../images/time_new.jpg' mode='aspectFit'></image>
+      </view>
+      <view class='kuyy'>{{item.time}}</view>
+      <view class='jetrr' data-index='{{index}}' bindtap='clickYuY'>预约</view>
+    </view>
+  </view>
+  <i-modal title="预约列表" visible="{{ visible1 }}" bind:ok="handlequed" bind:cancel="handleClose1">
+    <view>请确定预约车时间:</view>
+    <view>{{times[currentTab].day}} {{list[active].time}}</view>
+  </i-modal>
+</view>

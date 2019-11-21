@@ -1,0 +1,15 @@
+<view class='mian'>
+  <view class='jess' wx:if="{{list.length == 0}}">暂无活动</view>
+  <view class='panl-group'>
+    <view class='panl' wx:for="{{list}}" wx:key="{{index}}" data-index='{{index}}' bindtap='toDetail'>
+      <view class='panl-img'>
+        <image mode="aspectFill" src='{{item.picUrl}}'></image>
+      </view>
+      <view class='panl-text'>
+        <view>{{item.discoutStr}}
+          <view style='font-size:28rpx;margin-top:8rpx;'>价格：{{item.price}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+<view class='mian'>
+    <view class='about_bj'>
+        <view class='publ'>
+            <view class='toux_img'><image src='{{userInfo.headImgUrl}}' mode='aspectFit' class='imgs'></image></view>
+            <view class='an_name'>
+              <view class='sxxname'>{{userInfo.nickname}}</view>
+              <view class='sxxtel'>{{list[cepai].contactsPhone}}</view>
+            </view>
+            <navigator url='/pages/tubelist/index'><view class='dizhis'>管理地址</view></navigator>
+        </view>
+        <view class='publ'>
+            <text class='wenb'>车牌：</text>
+            <picker bindchange="bindPickerChange" value="{{cepai}}" range-key="carNum" range="{{list}}">
+              <view class="picker">{{list[cepai].carNum}}</view>
+              <image src='../images/jiant.png' mode='aspectFit' class='imagds'></image>
+            </picker>
+        </view>
+        <view class='publ'>
+            <text class='wenb'>车型：</text>
+            <text class='skuu'>{{list[cepai].carType == 1?'轿车':'SUV'}}</text>
+        </view>
+        <view class='publ'>
+            <text class='wenb'>门店：</text>
+            <picker bindchange="cvbPickerChange" value="{{xq}}" range-key="merName" range="{{nearStore}}">
+              <view class="picker">{{nearStore[xq].companyName+"--"+nearStore[xq].merName}}</view>
+              <image src='../images/jiant.png' mode='aspectFit' class='imagds'></image>
+            </picker>
+        </view>
+        <view class='publ'>
+            <text class='wenb'>停车位：</text>
+            <text class='skuu'>{{list[cepai].carSpaceNum}}</text>
+            
+        </view>
+        <view class='publs'>
+            <view class='wenb'>备注：</view>
+            <textarea class='area' placeholder="亲，如果有关于车位和其他相关注意事项请在此输入，以便更好的为您服务。" placeholder-style="color:#eee;"/>
+
+            <view class='tis'>请输入字母和数字组合的车位号，例如A001</view>
+        </view>
+    </view>
+
+
+    <view class='footer'>
+      <!-- <checkbox value='上门洗内饰' class="jiws">上门洗内饰</checkbox> -->
+      <view class='ppiu'>
+        <view class='wenyys'></view>
+        <view class='wenyys'>预付款：<text class='jiag'>¥35</text></view>
+        <view class='wenyys yansbj' bindtap='orderDate'>立即预约</view>
+      </view>
+    </view>
+</view>

@@ -1,0 +1,55 @@
+/* pages/store/index.wxss */
+.panl-group{
+  padding: 20px 20px 0 30px;
+  margin-bottom: 180rpx;
+}
+.panl{
+  margin-bottom: 8px;
+  display: flex;
+  font-size: 18px;
+  border-bottom: 1px solid #f2f2f2;
+  position: relative;
+}
+.panl-img{
+  width: 60px;
+}
+.panl-text{
+  width: calc(100% - 60px);
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.panl-text view{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  margin-bottom: 6px;
+}
+.panl-img image{
+  width: 60px;
+  height: 50px;
+}
+.picker{
+  padding: 10px 20px;
+}
+.address{
+  padding: 10px 20px;
+  font-size:30rpx;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+}
+.active{
+  color: #000000;
+}
+.store-marker{
+  position: absolute;
+  left: -20px;
+  top: 10px;
+}
+.xiajiantou{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}

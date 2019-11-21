@@ -1,0 +1,26 @@
+<view class="detail-title">{{info.merName}}
+  <view class='dousu' bindtap='warn'>投诉</view>
+</view>
+<image class='detail-img' src='{{info.brandLogo}}'></image>
+<view class='detail-brand'>{{info.brand}}</view>
+<view class='detail-item'>
+  <text style='font-weight: bold;'>地址：</text> {{info.addressDetail}}
+</view>
+<view class='detail-item'>
+  <text style='font-weight: bold;'>电话：</text> {{info.phone}}
+</view>
+<view class='detail-item'>
+  <text style='font-weight: bold;'>联系人：</text> {{info.concats}}
+</view>
+<view class='detail-item'>
+  <text style='font-weight: bold;'>洗车方式：</text>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}" wx:key='{{index}}'>
+      <image class='radio-icon' src='{{radio == 1+index?"../images/circle.png":"../images/circle1.png"}}'></image>
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </radio-group>
+</view>
+<view class='detail-box' bindtap='toYuyue'>
+  <view class='detail-pre'>立即预定</view>
+</view>

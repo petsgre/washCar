@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "i-tabs": "../../iview/tabs/index",
+    "i-tab": "../../iview/tab/index",
+    "i-modal": "../../iview/modal/index"
+  },
+  "navigationBarTitleText": "客服",
+  "backgroundTextStyle": "dark",
+  "navigationBarTextStyle": "white"
+}

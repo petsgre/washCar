@@ -1,0 +1,35 @@
+<view class="container">
+    <view class="companyInfo">
+        <view class="leftImg">
+            <image class="comImgCss" src="/img/image/com_icon.jpg"></image>
+        </view>
+        <view class="rightText">
+            <label class="comNameLable">驰展控股</label>
+            <view class="imgCon">
+                <image class="dingwei" src="/img/image/location.jpg"></image>
+                <label>上海市浦东新区1</label>
+            </view>
+
+            <view>
+                <label>13112142356</label>
+                <image class="phoneImg" src="/img/image/phone.jpg"></image>
+            </view>
+
+            <view >
+                <button class="btnCon">联系客服</button>
+            </view>
+        </view>
+    </view>
+    <view class="xiaCss">
+        <view class="ewmImage">
+            <view class="timeLebal">
+                <view class="ewmJuzhong">
+                    <image class="ewmImg" src="/img/image/ewm.jpg"></image>
+                </view>
+                <view class="saoma">
+                    <label >扫码关注公众号:aaaa</label>
+                </view>
+            </view>
+         </view>
+    </view>
+</view>

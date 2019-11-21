@@ -1,0 +1,16 @@
+
+<view class="container">
+    <!--弹出层-->
+    <view class="pop-qrcode-view {{show ? 'show' : ''}}">
+        <image src="/img/code_questionnaire_order.jpg" class="qrcode"></image>
+        <view class="tips">
+            如有疑问可扫码添加<label class="sp">baopinger2</label>
+        </view>
+        <button class="copy" bindtap="tapCopyWeixin">
+            复制微信号
+        </button>
+    </view>
+    <!--遮罩-->
+    <view class="my-mask" style="{{show ? 'display:block' : 'display:none'}}" bindtap="tapHidePop">
+    </view>
+</view>

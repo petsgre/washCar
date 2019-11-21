@@ -1,0 +1,12 @@
+.main {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.rxcode {
+  width: 420rpx;
+  height: 420rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}

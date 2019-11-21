@@ -1,0 +1,19 @@
+<!--pages/orderDetail/index.wxml-->
+<view class='order-table'>
+  <view class='order-tr'>
+    <text>门店：</text>
+    <text>小心心</text>
+  </view>
+  <view class='order-tr'>
+    <text>时间：</text>
+    <text>2019年5月3日10点</text>
+  </view>
+  <view class='order-tr'>
+    <text>价格：</text>
+    <text>¥20</text>
+  </view>
+  <view class='order-tr'>
+    <text>洗车类型：</text>
+    <text>固定洗</text>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+<view class='mian'>
+  <view class='xxks' wx:for="{{list}}" wx:key="{{item.piId}}">
+    <view class='glname'>
+      <view class='cep'>{{item.carNum}}</view>
+      <view class='cews'>
+        <text>车型：</text>
+        <text>{{item.carType == 1?'轿车':'SUV'}}</text>
+      </view>
+      <view class='cews'>
+        <text>小区：</text>
+        <text>{{item.villageId}}</text>
+      </view>
+      <view class='cews'>
+        <text>车位：</text>
+        <text>{{item.carSpaceNum}}</text>
+      </view>
+    </view>
+    <view class='glbtn'>
+      <view class='bianji' data-item='{{item}}' bindtap='modify'>编辑</view>
+      <view class='sanc'  data-index='{{index}}' bindtap='askDeleteCar'>删除</view>
+      <view class='bianji'>绑定</view>
+    </view>
+  </view>
+  <navigator url='/pages/addinfor/index'>
+    <view class='xzheng'>新增</view>
+  </navigator>
+</view>
+<i-modal visible="{{ visible }}" bind:ok="deleteCar" bind:cancel="handleClose">
+    <view>是否删除该辆汽车？</view>
+</i-modal>
+<i-toast id="toast" />
